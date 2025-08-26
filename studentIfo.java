@@ -25,15 +25,15 @@ public class studentInfo {
     void studentGrade() {
         int average = (midtermGrade + finalGrade)/2;
         if (average >= 98 && average <= 99) {
-            System.out.println("With Highest Honors 🏅");
+            System.out.println("With Highest Honors");
         } else if (average >= 95 && average <= 97) {
-            System.out.println("With High Honors 🥇");
+            System.out.println("With High Honors");
         } else if (average >= 90 && average <= 94) {
-            System.out.println("With Honors 🥈");
+            System.out.println("With Honors");
         } else if (average >= 75) {
-            System.out.println("Status: PASSED ✅");
+            System.out.println("Status: PASSED");
         } else {
-            System.out.println("Status: FAILED ❌");
+            System.out.println("Status: FAILED");
         }
         System.out.println("Your Grade is  " + average );
     }
